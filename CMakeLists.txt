@@ -12,8 +12,10 @@ set(SOURCE_LIST
   "src/Main.cpp"
   "src/Snake.cpp"
   "src/Snake.hpp"
-  "CMakeLists.txt"
   ".gitignore"
+  "CMakeLists.txt"
+  "LICENSE"
+  "README.md"
   )
 
 add_executable(${PROJECT_NAME} ${SOURCE_LIST})
